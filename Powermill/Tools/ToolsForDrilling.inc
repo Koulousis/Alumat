@@ -7,6 +7,12 @@ SWITCH $TOOLNUMBER {
 		$FEED = 40
 		$PLUNGE = 0.5
 	BREAK
+	CASE "T703"
+		$NAME =  "T703 Maschio M14,0 H56,0"
+		$SPEED = 68
+		$FEED = 136
+		$PLUNGE = 136
+	BREAK
 	CASE "T213"
 		$NAME =  "T213 Punta D3,0 H70,0"
 		$SPEED = 2100
@@ -208,6 +214,48 @@ SWITCH $TOOLNUMBER {
 		$SPEED = 60
 		$FEED = 120
 		$PLUNGE = 120
+	BREAK
+	CASE "T705"
+		$NAME =  "T705 Maschio M20,0 H80,0"
+		$SPEED = 55
+		$FEED = 139
+		$PLUNGE = 139
+	BREAK
+	CASE "T707"
+		$NAME =  "T707 Maschio M12,7 H96,0"
+		$SPEED = 80
+		$FEED = 156
+		$PLUNGE = 156
+	BREAK
+	CASE "T710"
+		$NAME =  "T710 Maschio M19,7 H80,0"
+		$SPEED = 55
+		$FEED = 139
+		$PLUNGE = 139
+	BREAK
+	CASE "T708"
+		$NAME =  "T708 Maschio M15,9 H96,0"
+		$SPEED = 60
+		$FEED = 138
+		$PLUNGE = 138
+	BREAK
+	CASE "T708"
+		$NAME =  "T708 Maschio M15,9 H96,0"
+		$SPEED = 60
+		$FEED = 138
+		$PLUNGE = 138
+	BREAK
+	CASE "T709"
+		$NAME =  "T709 Maschio M22,2 H96,0"
+		$SPEED = 55
+		$FEED = 155
+		$PLUNGE = 155
+	BREAK
+	CASE "T711"
+		$NAME =  "T711 Maschio M25,4 H100,0"
+		$SPEED = 50
+		$FEED = 158
+		$PLUNGE = 158
 	BREAK
 	CASE "T974"
 		$NAME =  "T974 Piana D16,0 H45,0"
