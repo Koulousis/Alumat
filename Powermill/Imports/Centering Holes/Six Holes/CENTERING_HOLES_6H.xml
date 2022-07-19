@@ -35,7 +35,7 @@
   <hole_defs>
      <hole_def id="hole1" description="description" hole_type="type">
       <hole>
-        <geometry diameter="6" taper="0" depth="8"/>
+        <geometry diameter="6" taper="0" depth="10"/>
         </hole>
      </hole_def>
   </hole_defs>
